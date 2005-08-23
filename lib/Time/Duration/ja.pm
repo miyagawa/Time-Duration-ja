@@ -2,7 +2,7 @@ package Time::Duration::ja;
 
 use strict;
 use vars qw($VERSION);
-$VERSION = '0.01';
+$VERSION = '0.02';
 
 use base qw(Exporter);
 our @EXPORT = qw( later later_exact earlier earlier_exact
@@ -25,10 +25,10 @@ sub earlier {
 sub earlier_exact {
   interval_exact($_[0], $_[1], '%s後', '%s前', '現在'); }
 
-sub ago       { &later }
-sub ago_exact { &later_exact }
-sub from_now  { &earlier }
-sub from_now_exact { &earlier_exact }
+sub ago       { &earlier }
+sub ago_exact { &earlier_exact }
+sub from_now  { &later }
+sub from_now_exact { &later_exact }
 
 sub duration_exact {
   my $span = $_[0];   # interval in seconds

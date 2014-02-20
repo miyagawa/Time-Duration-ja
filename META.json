@@ -6,7 +6,7 @@
    "dynamic_config" : 0,
    "generated_by" : "Minilla/v0.11.0, CPAN::Meta::Converter version 2.133380",
    "license" : [
-      "unknown"
+      "perl_5"
    ],
    "meta-spec" : {
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
@@ -66,7 +66,7 @@
          "web" : "https://github.com/miyagawa/Time-Duration-ja"
       }
    },
-   "version" : "0.02",
+   "version" : "0.03",
    "x_contributors" : [
       "miyagawa <miyagawa@65690182-5df0-0310-9871-95da5a3706e7>",
       "Tokuhiro Matsuno <tokuhirom@gmail.com>"

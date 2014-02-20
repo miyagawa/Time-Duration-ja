@@ -2,7 +2,7 @@ package Time::Duration::ja;
 
 use strict;
 use vars qw($VERSION);
-$VERSION = '0.02';
+$VERSION = '0.03';
 
 use base qw(Exporter);
 our @EXPORT = qw( later later_exact earlier earlier_exact
@@ -95,6 +95,8 @@ sub _render {
 1;
 __END__
 
+=for stopwords encodings
+
 =head1 NAME
 
 Time::Duration::ja - describe Time duration in Japanese
@@ -112,7 +114,7 @@ Time::Duration::ja is a localized version of Time::Duration.
 =head1 UNICODE
 
 All the functions defined in Time::Duration::ja returns string as
-unicode flagged. You should use L<Encode> or L<encoding> to convert to
+Unicode flagged. You should use L<Encode> or L<encoding> to convert to
 your native encodings.
 
 =head1 AUTHOR
@@ -120,6 +122,8 @@ your native encodings.
 Tatsuhiko Miyagawa E<lt>miyagawa@bulknews.netE<gt>
 
 Most of the code are taken from Time::Duration::sv by Arthur Bergman and Time::Duration by Sean M. Burke.
+
+=head1 LICENSE
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.

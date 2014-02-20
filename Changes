@@ -1,5 +1,7 @@
 Revision history for Perl extension Time::Duration::ja
 
+{{$NEXT}}
+
 0.02  Mon Apr 25 01:49:16 UTC 2005
         - Fixed silly translation mistake in ago() and from_now()
 

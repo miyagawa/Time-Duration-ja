@@ -12,7 +12,7 @@ our @EXPORT_OK = ('interval', @EXPORT);
 
 use constant DEBUG => 0;
 use Time::Duration qw();
-use encoding 'utf-8';
+use utf8;
 
 sub concise ($) { $_[0] }
 

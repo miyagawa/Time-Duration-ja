@@ -1,4 +1,4 @@
-use encoding "utf-8";
+use utf8;
 use Test::More 'no_plan';
 use Time::Duration::ja;
 
